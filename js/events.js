@@ -14,7 +14,9 @@ function frameIt(){
 
 function pressIt() {
   ${'typing'}.on('keydown', function(e){
-    if(e.which=== )
+    if(e.which === 71) {
+      alert("The G key was pressed")
+    }
   } )
 }
 
